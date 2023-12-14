@@ -1,0 +1,27 @@
+.home{
+    width: 87%;
+    margin: 0 auto;
+    max-width: 1500px;
+    font-family: 'Raleway',sans-serif;
+    background-color: #F5FFFA;
+    
+}
+
+.home__image{
+    width: 100%;
+    height: 400px; 
+    object-fit: cover;
+    mask-image: linear-gradient(to bottom, transparent 1%, black);
+    z-index: -1;
+    margin-bottom: -50px;
+    margin-top: 50px;
+}
+
+.home__row{
+    display: flex;
+    z-index: 1;
+    margin-left: -11px;
+    margin-right: -11px;
+}
+
+ 

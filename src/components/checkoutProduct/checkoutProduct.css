@@ -1,0 +1,43 @@
+.checkoutProduct{
+    display: flex;
+    border-top: 1px solid gray;
+    
+}
+
+.checkoutProduct__image{
+    object-fit: contain;
+    width: 180px;
+    height: 180px;
+}
+
+.checkoutProduct__info{
+    padding-left: 20px;
+}
+
+.checkoutProduct__info > button{
+    display: block;
+    font-size: 1.0em;
+    text-align: center;
+    line-height: 1;
+    color: red ;
+    cursor: pointer;
+    border: solid 1px red;
+
+}
+
+.checkoutProduct__info > button:hover{
+    color: #494949 !important;
+    border-radius: 50px;
+    border-color: #494949 !important;
+    transition: all 0.3s ease 0s;
+}
+
+.checkoutProduct__rating{
+    display: flex;
+}
+
+.checkoutProduct__title{
+    font-size: 18px;
+    font-weight: 800;
+    margin-top: 20px;
+}
